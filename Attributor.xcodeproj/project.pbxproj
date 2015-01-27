@@ -81,8 +81,6 @@
 		86C52A0B1A660F9F00B6F93D /* Attributor */ = {
 			isa = PBXGroup;
 			children = (
-				86C52A101A660F9F00B6F93D /* AppDelegate.h */,
-				86C52A111A660F9F00B6F93D /* AppDelegate.m */,
 				86C52A131A660F9F00B6F93D /* ViewController.h */,
 				86C52A141A660F9F00B6F93D /* ViewController.m */,
 				86C52A161A660F9F00B6F93D /* Main.storyboard */,
@@ -96,6 +94,8 @@
 		86C52A0C1A660F9F00B6F93D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				86C52A101A660F9F00B6F93D /* AppDelegate.h */,
+				86C52A111A660F9F00B6F93D /* AppDelegate.m */,
 				86C52A0D1A660F9F00B6F93D /* Info.plist */,
 				86C52A0E1A660F9F00B6F93D /* main.m */,
 			);
@@ -344,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Attributor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Attributor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +414,7 @@
 				86C52A2E1A660F9F00B6F93D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86C52A2F1A660F9F00B6F93D /* Build configuration list for PBXNativeTarget "AttributorTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +423,7 @@
 				86C52A311A660F9F00B6F93D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
